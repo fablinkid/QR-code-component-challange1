@@ -1,0 +1,40 @@
+/* Universal Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'outfit', 'sans-serif'; 
+}
+/* QR Wrapper Container */
+.qr-wrapper-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440;
+    height: 100vh;
+    background-color: #d6e2f0;
+}
+.qr-content-container{
+    width: 300px;
+    height: 460px;
+    background-color: #fff;
+    border-radius: 19px;
+    padding: 15px;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+.qr-content-container h3{
+    font-weight: 700;
+    color: #1f3251;
+    text-align: center;
+   padding: 20px 20px 20px;
+}
+.qr-content-container p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #7b879d;
+    padding: 0 20px;
+    text-align: center;
+}
